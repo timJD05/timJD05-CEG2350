@@ -11,16 +11,16 @@
 
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
-| help    | man         |    used to display user manual of command that we run on the terminal    |
-| Get-Location | pwd    |    Writes to standard output the full path name of your current directory   |
-| Get-ChildItem | ls    |    Writes to standard output the contents of each specified directory     |
-| mkdir   | mkdir       |    Create new directory    |
-| Set-Location | cd     |    Allows to move between directories    |
-| New-Item | touch      |    Used to create a file without any content    |
-| Move-Item | mv        |    Move files or folders    |
-| Copy-Item | cp        |    Copy files    |
-| Remove-Item | rm      |    To remove files    |
-| notepad.exe | vim     |    File editor?    |
+| help    | man         |        |
+| Get-Location | pwd    |        |
+| Get-ChildItem | ls    |        |
+| mkdir   | mkdir       |        |
+| Set-Location | cd     |        |
+| New-Item | touch      |        |
+| Move-Item | mv        |        |
+| Copy-Item | cp        |        |
+| Remove-Item | rm      |        |
+| notepad.exe | vim     |        |
 
 ## Part 3 - Command Line Navigation
 
