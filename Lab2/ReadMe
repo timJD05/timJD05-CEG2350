@@ -27,34 +27,34 @@ cat ~/.ssh/id_rsa.pub | pbcopy
     
 ## Part 3 Answers
 
-1. Command to create new user: create /Users/Username RealName "Your new Username"
+1. Command to create new user: useradd
 2. Path to user's home directory: 
 3. Evaluate if `ubuntu` can add files to user's home directory:
-4. Command to switch to user:
-5. Command(s) to go to user's home directory:
+4. Command to switch to user: SU
+5. Command(s) to go to user's home directory: CD
 6. Evaluate if user can add files to user's home directory:
-7. Command to switch to `ubuntu`:
-8. Command to return to `ubuntu` home directory: 
+7. Command to switch to `ubuntu`: su-ubuntu
+8. Command to return to `ubuntu` home directory: cd-unbuntu
 
 ## Part 4 Answer
 
 For each, write the command used or answer the question posed.
 
-1. Command to create group named `crew`:
-2. Command(s) to add `ubuntu` & user to group `crew`:
-3. Command to modify `share` to have group ownership of `crew`:
-4. Command to switch to user:
-5. Command to add file to `share`: 
+1. Command to create group named `crew`: AddGroup Crew
+2. Command(s) to add `ubuntu` & user to group `crew`: ubuntu-crew
+3. Command to modify `share` to have group ownership of `crew`: chgrp share crew
+4. Command to switch to user: su username
+5. Command to add file to `share`: addfile share
 6. Evaluate why these steps allowed the above action:
 
 ## Part 5 Answers
 
 For each, write the command used or answer the question posed.
 
-1. Command to create file using `sudo`: 
-2. Evaluate (in plain text) the permission of the file: 
+1. Command to create file using `sudo`: sudu cat
+2. Evaluate (in plain text) the permission of the file: user nd ownership of file, can read and execute.
 3. Provide a method to edit the file without modifying permissions: 
-4. Command(s) to modify permissions:
+4. Command(s) to modify permissions: chmud
 
 ## Citations
 
