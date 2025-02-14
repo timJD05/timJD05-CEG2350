@@ -1,0 +1,5 @@
+#!/bin/bash
+# roll 
+random_number=$(( (RANDOM % 20) + 1 ))
+
+echo "You rolled a $random_number"
