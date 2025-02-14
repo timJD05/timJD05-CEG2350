@@ -2,4 +2,13 @@
 # roll 
 random_number=$(( (RANDOM % 20) + 1 ))
 
-echo "You rolled a $random_number"
+echo "Enter Number"
+
+echo "Your number" $random_number
+read user_number
+
+if [[ "$user_number" -lt 1 ]]; then
+    echo "Error: The number must be greater than or equal to 1."
+    exit 1
+fi
+
