@@ -43,11 +43,11 @@ Verify that `roll` made it to your GitHub repository for this course and is in y
 ## Part 5 - Retrospective Answers
 
 1. Where and when did it go wrong while working on your script tasks?
-> Your reflection here
+> Your reflection here   Had trouble configuring bash with my terminal 
 2. Was anything familiar working with a new language compared to one you are used to?
-> Your reflection here
+> Your reflection here   Im rusty on what languages ive used, but it was similar to Java
 3. Did you write good `commit` messages that refer to what tasks were completed at each commit?  What would you improve?
-> Your reflection here
+> Your reflection here 
 
 ## Extra Credit
 
@@ -60,3 +60,7 @@ To add citations, provide the site and a summary of what it assisted you with.  
 
 https://statistics.berkeley.edu/computing/ssh-keys#:~:text=You%20can%20generate%20keys%20with,been%20saved%20in%20%24HOME%2F.
 Used this website for part two 
+https://ioflood.com/blog/bash-while-loop/
+https://ioflood.com/blog/bash-random-number/
+Used for roll 
+
