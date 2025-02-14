@@ -1,7 +1,7 @@
 ## Lab 02
 
-- Name:
-- Email
+- Name: Timothy Doakes
+- Email: Tdoakes2020@gmail.com
 
 ## Part 1 Answers
 
@@ -9,23 +9,25 @@ Command to SSH to AWS instance:
 ```
 [Place your ssh command here]
 ```
+cat ~/.ssh/id_rsa.pub | pbcopy
+
 
 ## Part 2 Answers
 
 1. `chmod u+r bubbles.txt`
-    - Means: 
+    - Means: Command adds read permission for the user. "U+R" = User plus read
 2. `chmod u=rw,g-w,o-x banana.cabana`
-    - Means: 
+    - Means: This command sets specific permissions for the file 
 3. `chmod a=w snow.md`
-    - Means: 
+    - Means: This command sets write permission for all users
 4. `chmod 751 program`
-    - Means: 
+    - Means: This command sets permissions using the octal notation 
 5. `chmod -R ug+w share`
-    - Means: 
-
+    - Means: This command adds write permission for the user and group to the directory share and the contents.
+    
 ## Part 3 Answers
 
-1. Command to create new user: 
+1. Command to create new user: create /Users/Username RealName "Your new Username"
 2. Path to user's home directory: 
 3. Evaluate if `ubuntu` can add files to user's home directory:
 4. Command to switch to user:
@@ -34,7 +36,7 @@ Command to SSH to AWS instance:
 7. Command to switch to `ubuntu`:
 8. Command to return to `ubuntu` home directory: 
 
-## Part 4 Answers
+## Part 4 Answer
 
 For each, write the command used or answer the question posed.
 
@@ -58,3 +60,9 @@ For each, write the command used or answer the question posed.
 
 To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
 
+https://www.techrepublic.com/article/how-to-view-your-ssh-keys-in-linux-macos-and-windows/
+
+I used this site to find my SSH command.
+
+https://cets.seas.upenn.edu/answers/chmod.html
+I used this site to find some of the part one commands.
