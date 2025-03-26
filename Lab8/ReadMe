@@ -1,0 +1,118 @@
+## Lab 08
+
+- Name: Timothy Doakes
+- Email: Tdoakes2020@gmail.com
+
+## Part 1 - What do we have?
+
+1. Command:
+```    lsblk 
+Output here
+```
+2. Command:
+```
+Output here
+```
+3. For the `xvda` partition table:
+    - Does it use MBR or GPT?    GPT
+    - How many partitions are on the block device?   2
+    - What is the largest partition?   /dev/xvda2
+4. Command:  
+```   sudo blkid /dev/xvda
+
+Output here
+```
+5. For the primary partition:
+    - What partition is the root filesystem on? 
+    /dev/xvda1 
+    - What is the partition label?
+    - What type of filesystem is on the partition? ext4
+6. Command:
+```   df -h /
+Output here
+```
+7. For the root filesystem:
+    - What is the total size? 20 GB
+    - How much space is used? 5 GB
+    - Where is it mounted to?    /
+8. Command:
+```
+Output here
+```
+9. Fields & purpose of fields in entry that mount the root filesystem
+
+
+## Part 2 - Something new
+
+1. `gdisk` main menu options
+   - `p`: Print the partition table
+   - `o`: Create a new empty GUID
+   - `n`: Create a new partition 
+   - `i`: SHow partition info
+   - `w`: Write changes to disk
+2. Steps to create a partition table and partition on `xvdb` sudo gdisk /dev/xvdb
+
+3. Partition table on `/dev/xvdb`
+```
+Paste partition table information here
+```
+4. Answer these questions:
+   
+   a. What device name does the partition use?
+      - Answer:  /dev/xvdb1
+        
+   b. What size is the partition in GB?
+      - Answer: 2 gb
+        
+   c. What filesystem type will be used on the partition?
+      - Answer: linux
+
+## Part 3 - File it away
+
+1. Commands used: sudo mkfs.ext4 /dev/xvdb1
+
+2. Commands used: sudo blkid /dev/xvdb1
+```
+output here
+```
+3. Commands used:  sudo blkid /dev/xvdb1
+4. Commands used:   sudo blkid /dev/xvdb1
+
+5. Contents of `/mnt/newworld`:
+```
+list here
+```
+6. Commands used:
+7. When can I interact with files on the filesystem on the partition in `xvdb`
+   - Answer:
+   
+## Part 4 - Take a `fstab` at this
+
+1. Commands used:
+2. Line you added to `/etc/fstab`:
+3. How did you confirm that the mount point changed? (Commands used or explain process):
+4. **If you restored `/etc/fstab`**, write here why you did not feel comfortable leaving your changes in place
+
+
+## Part 5 - What is dead may still be read
+
+1. Commands used:
+2. What does the `strings` command do?
+   - Answer: strings
+3. Write a short explanation of what you saw in `strings` output: it took and showed strings of characters from binary files.
+4. Commands used:
+5. Is the secret you deleted still showing up in the `strings` output? No it isnt 
+6. What does the `shred` command do?
+   - Answer: deletes 
+
+### Report: How to Permanently Delete a File
+
+**Write your report here**
+
+## Extra Credit - Create a Virtual Filesystem
+
+Report on how to perform (and verify completion) of making a virtual filesystem on a loop device
+
+## Citations
+
+To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
