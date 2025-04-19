@@ -1,0 +1,73 @@
+## Lab 11
+
+- Name: Timothy Doakes
+- Email:Doakes.6@wright.edu
+
+## Part 1 Answers:
+
+1. `tar` options:
+   - `-c` Creates a new archive
+   - `-v`Displays progress
+   - `-f`Specifies file name
+   - `-z`Compresses archive
+   - `-x`Extracts files
+   - `-t`List contents
+2. Command(s) to create and compress your archive:
+
+## Part 2 Answers:
+
+1. Command to connect with `sftp`:
+2. `sftp` options:
+   - `ls` Lists contents of remote directory
+   - `lls` Lists contents of local directory
+   - `put` Uploads file from local system to remote 
+   - `get` Downloaf file from remote to local system
+3. Command(s) to use `sftp` to download your `.tar.gz` file to your system: get filename.tar.gz   
+4. Command(s) to decompress & extract your `.tar.gz` file to your system:  tar -xzvf filename.tar.gz
+
+
+## Part 3 Answers:
+
+1. Command to install `apache2` or `nginx`:  sudo apt install apache2 -y
+2. Command to confirm that web serving service is running: sudo systemctl status apache2
+
+3. Command to download [`simple-site.tar.gz`](simple-site.tar.gz) to your AWS instance: wget http://example.com/simple-site.tar.gz
+
+4. Command(s) to change permissions:  sudo chmod -R 755 
+sudo chown -R 
+5. Command to extract the compressed archive to `/var/www/html`: sudo tar -xzvf 
+6. Required changes to `index.html` will be awarded credit based on screenshot.
+7. [Insert screenshot of your website (with the URL bar included)]()
+
+## Part 4 Answers:
+
+1. Command to generate a new key, with options entered into the fields 
+```
+Enter command & options entered while running here
+```
+
+2. Create the user and / or prove the user exists
+```  sudo adduser mynewuser
+
+Enter command & output for creating user and / or proving user exists.
+```
+
+3. Contents of `~/.ssh/authorized_keys` in remote user account:
+``` cat ~/.ssh/authorized_keys
+
+Enter contents here
+```   ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1x... 
+
+4. `ssh` command:  ssh -i ~/.ssh/id_rsa 
+
+5. Updated `config` file contents:
+``` 
+Enter block with connection information in config file here
+```
+
+6. `ssh` command post `config` file entry:   ssh aws-remote
+
+
+## Citations
+
+To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
